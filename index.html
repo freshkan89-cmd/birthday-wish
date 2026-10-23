@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Rahul Mamu 🎂</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;min-height:100vh;overflow-x:hidden;
+ text-align:center;color:white;
+ font-family:Arial,sans-serif;
+ background:linear-gradient(160deg,#16082f,#721b72,#ed5d91);
+}
+h1{margin-top:35px;font-size:29px}
+p{line-height:1.9;padding:0 12px}
+.name{font-size:34px;color:#ffe66d;font-weight:bold}
+.cake{position:relative;width:210px;height:175px;
+ margin:45px auto 25px;animation:bob 2s infinite ease-in-out}
+.plate{position:absolute;bottom:0;width:210px;height:18px;
+ border-radius:50%;background:linear-gradient(white,#aab7e5)}
+.layer{position:absolute;left:20px;width:170px;height:58px;
+ border-radius:12px 12px 17px 17px;
+ background:linear-gradient(90deg,#ff6caa,#ffe0ed,#ff6caa);
+ box-shadow:inset 0 -8px #d63c7b}
+.bottom{bottom:14px}
+.top{bottom:63px;left:37px;width:136px;height:48px;
+ background:linear-gradient(90deg,#e8a1e7,#fff0fa,#e8a1e7)}
+.icing{position:absolute;left:37px;bottom:91px;
+ width:136px;height:18px;background:#fff0fa;border-radius:50%}
+.candle{position:absolute;bottom:125px;left:99px;
+ width:12px;height:35px;
+ background:repeating-linear-gradient(45deg,white 0 5px,#55d9ff 5px 10px)}
+.flame{position:absolute;left:98px;bottom:158px;
+ width:15px;height:23px;background:#ffed56;
+ border-radius:50% 50% 50% 0;transform:rotate(-45deg);
+ box-shadow:0 0 22px #ffcb36;animation:flicker .5s infinite alternate}
+button{padding:14px 23px;border:0;border-radius:30px;
+ background:#ffe66d;color:#57144f;font-weight:bold;
+ font-size:16px;margin:12px;cursor:pointer}
+#message{display:none;margin:22px 14px;padding:20px;
+ background:#ffffff20;border:1px solid #ffffff50;border-radius:20px}
+.balloon{position:fixed;bottom:-100px;width:43px;height:55px;
+ border-radius:50%;animation:rise 9s linear infinite;z-index:-1}
+.b1{left:6%;background:#ff548d}
+.b2{left:28%;background:#ffdb48;animation-delay:2s}
+.b3{left:73%;background:#4ce5d6;animation-delay:1s}
+.b4{left:90%;background:#c18aff;animation-delay:3s}
+@keyframes rise{to{transform:translateY(-120vh) rotate(25deg)}}
+@keyframes bob{50%{transform:translateY(-8px)}}
+@keyframes flicker{to{transform:rotate(-38deg) scale(1.15)}}
+.confetti{position:fixed;top:-15px;width:9px;height:14px;
+ animation:fall 3s linear forwards;z-index:5}
+@keyframes fall{to{transform:translateY(110vh) rotate(720deg)}}
+footer{padding:25px;font-size:13px}
+</style>
+</head>
+<body>
+
+<div class="balloon b1"></div>
+<div class="balloon b2"></div>
+<div class="balloon b3"></div>
+<div class="balloon b4"></div>
+
+<h1>🎉 HAPPY BIRTHDAY 🎉</h1>
+<p>আজকের দিনটা আমার প্রিয় বন্ধুর জন্য! ❤️</p>
+<div class="name">Rahul Mamu 🥳</div>
+
+<div class="cake">
+ <div class="plate"></div>
+ <div class="layer bottom"></div>
+ <div class="layer top"></div>
+ <div class="icing"></div>
+ <div class="candle"></div>
+ <div class="flame"></div>
+</div>
+
+<h2>🎂 শুভ জন্মদিন, Rahul Mamu! 🎂</h2>
+<p>তোর মুখের হাসি যেন সবসময় এমনই থাকে। 💖</p>
+
+<button onclick="surprise()">🎁 Open Your Surprise</button>
+
+<div id="message">
+ <h2>❤️ প্রিয় Rahul Mamu ❤️</h2>
+ <p>
+  বন্ধু, তুই শুধু আমার বন্ধু না, তুই আমার জীবনের
+  অনেক সুন্দর স্মৃতির একটা অংশ। তোর সঙ্গে কাটানো
+  ছোট ছোট মুহূর্তগুলোও আমার কাছে অনেক মূল্যবান।
+ </p>
+ <p>
+  বন্ধুত্ব মানে শুধু একসঙ্গে হাসি-আনন্দ করা নয়,
+  বন্ধুত্ব মানে খারাপ সময়েও পাশে থাকা।
+  জীবনে অনেক মানুষের সঙ্গে পরিচয় হবে,
+  কিন্তু তোর মতো বন্ধুর জায়গাটা সবসময় আলাদা থাকবে।
+ </p>
+ <p>
+  তোর জীবনের প্রতিটি দিন সুন্দর হোক, সব স্বপ্ন পূরণ হোক।
+  তোর মুখে সবসময় হাসি থাকুক, আর আমাদের বন্ধুত্ব
+  সারাজীবন এমনই অটুট থাকুক। 🫂❤️
+ </p>
+ <h2>🎉 Happy Birthday, My Dear Friend! 🎉</h2>
+ <p>
+  May your life be filled with happiness, love and success.
+  Thank you for being such a wonderful friend.
+  May our friendship last forever! 💝
+ </p>
+ <h2>🎂 Many Many Happy Returns of the Day! 🎂</h2>
+ <p>— With lots of love, your friend ❤️</p>
+</div>
+
+<footer>Made with ❤️ for Rahul Mamu</footer>
+
+<script>
+function surprise(){
+ document.getElementById("message").style.display="block";
+ for(let i=0;i<100;i++){
+  let c=document.createElement("div");
+  c.className="confetti";
+  c.style.left=Math.random()*100+"vw";
+  c.style.backgroundColor=["#ffe66d","#ff548d",
+  "#4ce5d6","#fff","#c18aff"][Math.floor(Math.random()*5)];
+  c.style.animationDelay=Math.random()*2+"s";
+  document.body.appendChild(c);
+  setTimeout(()=>c.remove(),5000);
+ }
+}
+</script>
+
+</body>
+</html>
